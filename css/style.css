@@ -16,8 +16,8 @@ p {
 }
 
 .content-width {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 0 20px;
 }
 
@@ -37,11 +37,11 @@ p {
 
 
 .submit-color {
-  background-color: #DE660D;
+  background-color: #de660d;
   color: white;
+  margin: 0 auto;
   opacity: 0.9;
   transition: all 0.4s;
-  margin: 0 auto;
 }
 
 .submit-color:hover {
@@ -49,11 +49,15 @@ p {
 }
 
 .submit-center {
-  text-align: center;
   margin-top: 30px;
+  text-align: center;
 }
 
 footer {
   background-color: #343a40;
   text-align: center;
+}
+
+.card {
+  border-radius: 0;
 }
